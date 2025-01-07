@@ -1,6 +1,6 @@
-const express = require('express')
+const express = require('express');
 
-const app = express()
+const app = express();
 
 app.listen(1234, function(){
     console.log('server is running on port 1234')
